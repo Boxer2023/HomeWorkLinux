@@ -1,0 +1,9 @@
+   0 mkdir /home/dmytro_morokhotin
+   1 touch /home/dmytro_morokhotin/info.txt
+   2 date > info.txt
+   3 df -h / >>info.txt
+   4 history | tail -n 5 >> info.txt
+   5 grep "vendor_id" /proc/cpuinfo | sort -u | cut -d ':' -f 2 >> /hom
+     e/dmytro_morokhotin/info.txt
+   6 cat /home/dmytro_morokhotin/info.txt
+   7 AuthenticX86
