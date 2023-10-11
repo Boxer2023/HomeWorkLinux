@@ -1,0 +1,18 @@
+   1 mkdir /opt/220823_morning
+   2 touch /opt/220823_morning/dmytro_morokhotin
+   3 echo '#!/bin/bash' > myfirstbashscript.sh
+   4 chmod +x myfirstbashscript.sh 
+   5 ./myfirstbashscript.sh 
+   6 export USER="dmytro_morokhotin"
+   7 cd /opt/220823_morning
+   8 /opt/220823_morning# USER="dmytro_morokhotin"
+   9 /opt/220823_morning# DATE=$(11_10_23)
+   10 /opt/220823_morning# DATE=$(date)
+   11 /opt/220823_morning# echo "Сегодня $DATE"
+   12 Сегодня Wed Oct 11 21:06:59 UTC 2023
+   13 /opt/220823_morning# echo "Hello, $USER!"
+   14 Hello, dmytro_morokhotin!
+   15 /opt/220823_morning# echo "Я работаю в директории: $(pwd)"
+   16 Я работаю в директории: /opt/220823_morning
+   7 history
+   8 history > history.txt
